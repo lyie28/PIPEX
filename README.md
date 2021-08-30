@@ -1,5 +1,20 @@
 # PIPEX
-input and output redirection and pipes program for Linux
+A program that reproduces Bash's pipes handling and input and output redirections
+
+To launch Pipex: 
+1) make 
+2) ./pipex [input_file] "[cmd 1]" "[cmd 2]" [outputfile]
+^^ this will run just like < input_file cmd_1 | cmd_2 > outputfile in Bash!
+
+To launch Pipex bonus: 
+1) make bonus
+2) ./pipex_bonus [input_file] "[cmd 1]" "[cmd 2]" "[cmd_3]" "[cmd 4 etc]" [outputfile]
+^^ this will run just like < input_file cmd_1 | cmd_2 | cmd_3 | cmd_4 (etc.) >> outputfile in Bash!
+
+To launch bonus with << option:
+1) make bonus
+2) ./pipex_bonus here_doc [delimiter] "[cmd 1]" "[cmd 2]" "[cmd_3]" "[cmd 4 etc]" [outputfile]
+^^ this will run just like << delimiter cmd_1 | cmd_2 | cmd_3 | cmd_4 (etc.) >> outputfile in Bash!
 
 Pipex notes:
 
