@@ -1,0 +1,13 @@
+1_my_tests.sh
+2_my_tests.sh
+3_my_tests.sh
+4_my_tests.sh
+bonus_my_test.sh
+input1.txt
+input.txt
+out1.txt
+out2.txt
+output1.txt
+output2.txt
+test1.txt
+test2.txt
